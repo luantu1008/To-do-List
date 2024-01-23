@@ -21,13 +21,12 @@ const TodoApp = () => {
   };
 
   const handleSubmit = () => {
-
     if (!newTask) {
-      setError("New task cannot be empty!")
+      setError("New task cannot be empty!");
       return;
     }
 
-    setError(null)
+    setError(null);
 
     setTasks((prevTasks) => [
       ...prevTasks,
@@ -42,13 +41,12 @@ const TodoApp = () => {
   };
 
   const handleUpdateTask = () => {
-
     if (!newTask) {
-      setError("New task cannot be empty!")
+      setError("New task cannot be empty!");
       return;
     }
 
-    setError(null)
+    setError(null);
 
     setTasks((prevTasks) =>
       prevTasks.map((task, index) => {
