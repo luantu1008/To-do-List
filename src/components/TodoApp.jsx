@@ -40,7 +40,7 @@ const TodoApp = () => {
           name="name"
           value={newTask}
           onChange={handleChangeNewTask}
-          placeholder="Add your task"
+          placeholder="Add your task here"
         />
         <button onClick={handleSubmit} className="submit-task">
           ➕
