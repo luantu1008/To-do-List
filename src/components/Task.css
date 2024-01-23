@@ -16,8 +16,9 @@
 }
 
 .task-name { 
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .task-check { 

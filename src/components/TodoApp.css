@@ -49,3 +49,18 @@
     text-align: center;
     align-items: center;
 }
+
+
+.empty-list { 
+    text-align: center;
+    font-size: 26px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.error { 
+    text-align: center;
+    color: red;
+    font-size: 26px;
+    margin-top: 5px;
+}
